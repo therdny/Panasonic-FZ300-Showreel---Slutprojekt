@@ -1,27 +1,51 @@
-.jumbotron {
+body {
+  font-family: 'Roboto Condensed', sans-serif;
 
-    background: #000 url("../img/logo.png") center center;
+}
+
+.jumbotron {
+    background: url("../img/logo.png") center center;
     max-width: 1170px;
     height: 328px;
     background-size: cover;
     overflow: hidden;
     margin: auto;
 }
-
-.jumbotron h1{
-	font-family: 'Open Sans', sans-serif;
-	color: white;
+ 
+.jumbotron h1 {
+	font-family: 'Roboto', sans-serif;
+  color: white;
 	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 	border-color: black;
+  
 }
 
-
-
-nav 
-{
+nav {
   max-width: 1170px;
   padding: 0 5%;
   margin: 0 auto;
-  border-color: grey;
+  }
+
+.top-link {
+  max-width: 1170px;
+  margin: auto;
+}
+
+h3, h4 {
+    max-width: 1170px;
+    margin: 0 auto;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+li {
+    list-style: none;
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+p {
+    max-width: 1170px;
+    margin: 0 auto;
   }
 
