@@ -1,4 +1,4 @@
-====== FINAL PROJECT
+# FINAL PROJECT
 ---
 ## HTML CSS JS
 ---
