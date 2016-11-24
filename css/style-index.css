@@ -1,0 +1,17 @@
+#wrapper {
+  max-width: 1170px;
+  margin: 20px auto;
+  padding: 0 1%;
+  border: 2px solid;
+  margin: 20px auto;
+  padding: 1%;
+  border-color: lightgrey;
+  text-align: left;
+  background-color: white;
+}
+
+
+section {
+  background-color: #f8f8f8;
+  border: 0px;
+}
