@@ -56,21 +56,12 @@ li.tabs-meny {
   margin-top: 10px;
 }
 
-@media screen and (max-width:500px) {
-li.tabs-meny {
-  display: flex;
-  background-color: lightgrey;
-  text-decoration: none;
-  margin-top: 10px;
-
-}}
-
 li.tabs-meny a {
   color: white;
   text-decoration: none;
   opacity: 1;
   transition: color .50s ease-in-out;
-   outline: none;
+  outline: none;
 }
 
 li.tabs-meny a:hover {
@@ -122,11 +113,13 @@ p.bildtext3 {
 }
 
 img.kamera1 {
-  display: flex;
+  display: inline;
+
 }
 
 img.kamera2 {
-  display: flex;
+  display: inline;
+
 }
 
 .activemenu a {
@@ -136,6 +129,16 @@ img.kamera2 {
 .camera {
   background-color: #f8f8f8;
   border: 0px;
+}
+
+.order {
+  background-color: #f8f8f8;
+  border: 0px;
+}
+
+#order-form {
+  margin-left: 20px;
+
 }
 
 .row {
@@ -175,15 +178,39 @@ input[type=text]:focus {
 
 a.top-of-page {
   display: none;
-  width: 60px;
-  height: 60px;
+  width: 50px;
+  height: 50px;
   text-indent: -9999px;
   position: fixed;
   z-index: 999;
   right: 20px;
   bottom: 20px;
-  background: #27AE61 url("../img/up-arrow.png") no-repeat center 43%;
-  -webkit-border-radius: 30px;
-  -moz-border-radius: 30px;
-  border-radius: 30px;
+  background: grey url("../img/up-arrow.png") no-repeat center;
+  border-radius: 1000px;
+}
+
+.image {
+  position: relative;
+}
+
+h2 {
+  position: absolute;
+  top: 200px;
+  left: 0;
+  width: 100%;
+  color: white;
+}
+
+h2 span {
+  background: black;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+img.panasonic1 {
+  position: flex;
+}
+
+img.panasonic2 {
+  position: flex;
 }

@@ -1,9 +1,12 @@
+
+//This is the tabs-function
 $(function() {
     $("#tabs").tabs();
   });
 
-$('body').prepend('<a href="#" class="top-of-page">Till topps!</a>');
+$("body").prepend('<a href="#" class="top-of-page">Till topps!</a>'); //This is added as jquery so I don't have to insert it in every html-file.
 
+//The "to the top of the page"-function.
 var amountScrolled = 300;
 
 $(window).scroll(function() {
@@ -14,9 +17,10 @@ $(window).scroll(function() {
 	}
 });
 
+//To make a cool animationeffect on the scroll-up.
 $('a.top-of-page').click(function() {
 	$('html, body').animate({
 		scrollTop: 0
-	}, 700);
+	}, 500);
 	return false;
 });
