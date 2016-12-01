@@ -48,17 +48,22 @@ p {
     margin: 0 auto;
   }
 
-.tabs-meny {
-  margin: 0 auto;
-}
-
 li.tabs-meny {
   display: inline-block;
   background-color: lightgrey;
   padding: 10px 30px 10px 30px;
   text-decoration: none;
-  margin-top: 1px;
+  margin-top: 10px;
 }
+
+@media screen and (max-width:500px) {
+li.tabs-meny {
+  display: flex;
+  background-color: lightgrey;
+  text-decoration: none;
+  margin-top: 10px;
+
+}}
 
 li.tabs-meny a {
   color: white;
@@ -128,6 +133,16 @@ img.kamera2 {
   color: orange;
 }
 
+.camera {
+  background-color: #f8f8f8;
+  border: 0px;
+}
+
+.row {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
 /*CSS for the orderingform*/
 
 input {
@@ -158,3 +173,17 @@ input[type=text]:focus {
   margin-left: 20px;
 }
 
+a.top-of-page {
+  display: none;
+  width: 60px;
+  height: 60px;
+  text-indent: -9999px;
+  position: fixed;
+  z-index: 999;
+  right: 20px;
+  bottom: 20px;
+  background: #27AE61 url("../img/up-arrow.png") no-repeat center 43%;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  border-radius: 30px;
+}
