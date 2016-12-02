@@ -10,13 +10,11 @@
 * CSS
 * Photoshop
 * Sublime Text
+* jQuery UI
 
 ##### Ramverk
 * jQuery
 * Bootstrap
-
-##### Ovrigt
-* jQuery UI
 ---
 ###### Se live [här](therdny.github.io/slutprojekt)
 ###### Skapad av: [Andreas Pålsson](http://www.rdny.se)
