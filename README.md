@@ -16,7 +16,7 @@
 * Bootstrap
 
 ##### Övrigt
-* jQuery
+* jQuery UI
 ---
 ###### Se live [here](therdny.github.io/slutprojekt)
 ###### Skapad av: [Andreas Pålsson](http://www.rdny.se)
