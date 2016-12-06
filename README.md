@@ -12,6 +12,7 @@
  * Sublime Text
  * jQuery
  * jQuery UI
+ * Bootstrap
 
 ###### Se live [här](https://therdny.github.io/slutprojekt)
 ###### Skapad av: [Andreas Pålsson](http://www.rdny.se)
