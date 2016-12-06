@@ -3,7 +3,7 @@
 ## HTML CSS JS
 ---
 ###### Detta är mitt slutprojekt för kursen HTML, CSS, JavaScript, Webbstandarder för utbildningen Front-End utvecklare på [Lernia Högskoleutbildning](https://www.lernia.se/)
----
+
 ###### Använda teknologier & program:
  * HTML
  * JavaScript
@@ -12,8 +12,7 @@
  * Sublime Text
  * jQuery
  * jQuery UI
- * Bootstrap
----
+
 ###### Se live [här](https://therdny.github.io/slutprojekt)
 ###### Skapad av: [Andreas Pålsson](http://www.rdny.se)
 ---
